@@ -9,6 +9,45 @@
     <title>Home</title>
 </head>
 <body>
-    
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Notify</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>        <!-- the start of the homepage -->
+    <div class="container" style="margin-top: 30px;">
+        <div class="card">
+            <h5 class="card-header text-center">WRITE NOTES</h5>
+            <div class="card-body">
+              <h5 class="card-title">Note</h5>
+
+              <div style="margin: 20px;">
+                <input type="text" id="Title" class="form-control" placeholder="Enter a Title." style="margin-bottom: 20px;">
+                <input type="text" id="Note" class="form-control" placeholder="Enter a Note.">
+              </div>
+              <button class="btn btn-primary" onclick="add()">Add</button>
+            </div>
+        </div>
+        <div class="card" style="margin-top: 20px;">
+            <h5 class="card-header text-center">ALl NOTES</h5>
+            <div class="card-body">
+              <h5 class="card-title text-center">Notes</h5>
+                <span id="noteSpan">
+
+                </span>
+                <button class="btn btn-danger" onclick="remove()">Clear</button>
+            </div>
+        </div>
+    </div>    
 </body>
+<script src="static/js/index.js"></script>
 </html>
