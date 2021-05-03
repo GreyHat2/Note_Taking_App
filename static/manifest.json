@@ -1,10 +1,13 @@
 {
     "name": "Notify",
     "short_name": "Notify",
-    "start_url": "index.html",
-    "background_color": "#ffffff",
-    "theme_color": "#212529",
+    "description": "PWD note app",
+    "theme_color": "transparent",
+    "background_color": "transparent",
     "display": "standalone",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/",
     "icons": [
         {
             "src": "icons/512.png",
