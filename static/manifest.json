@@ -1,0 +1,23 @@
+{
+    "name": "Notify",
+    "short_name": "Notify",
+    "start_url": "index.html",
+    "background_color": "#ffffff",
+    "theme_color": "#212529",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "icons/512.png",
+            "sizes": "512x512",
+            "types": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "icons/192.png",
+            "sizes": "192x192",
+            "types": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+
+}
