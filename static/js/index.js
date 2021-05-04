@@ -16,10 +16,12 @@ function add() {
     }
 }
 
-function remove() {
+function removeAll() {
     text.innerHTML = "";
-    localStorage.clear()
+    localStorage.clear();
 }
+
+
 
 // LOOPING THROUGH THE KEYS AND FETCHING THEM
 for (let i = 0; i < localStorage.length; i++) {
